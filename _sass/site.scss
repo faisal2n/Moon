@@ -38,7 +38,7 @@ body {
 	position: relative;
 	width: 100%;
 	min-height: 300px;
-	text-align: left;
+	text-align: right;
 	color: $white;
 	@media #{$small} {
 		display: block !important;
@@ -137,7 +137,7 @@ body {
 	@include font-rem(12);
 	text-transform: uppercase;
 	color: lighten($color_tuatara,60);
-	padding-left: 0;
+	padding-right: 0;
 	a {
 		color: lighten($color_tuatara,60);
 	}
@@ -156,7 +156,7 @@ body {
         @include transition(.75s);
         margin: 2px 5px;
 		span {
-			float: left;
+			float: right;
 			padding: 2px 6px;
 		}
 		.count {
@@ -182,8 +182,8 @@ header .entry-meta {
 	display: block;
     margin-top: 1rem;
 	width: 70%;
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: right;
 }
 .social-share {
 	display: block;
